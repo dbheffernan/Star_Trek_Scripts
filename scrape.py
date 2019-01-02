@@ -68,7 +68,7 @@ if __name__ == "__main__":
 		episode_script={}
 		all_cast=[]
 		for j,link in enumerate(series):
-			episode="episode "+str(j)
+			episode="episode_"+str(j)
 			text=get_text(link)
 			episode_script[episode]=text
 		all_series_scripts[series_name]=episode_script
